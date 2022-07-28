@@ -1,0 +1,330 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8fa;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background: linear-gradient(to bottom, #4516fe, #4618fd);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.navbar nav {
+  order: 2;
+}
+
+.navbar div {
+  order: 1;
+}
+
+.nav-item {
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+
+.nav-item-active {
+  background-color: #fff;
+  color: #4618fd;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.header-content {
+  /* position: relative; */
+  padding: 4rem 0 6rem 0;
+
+  max-width: 1500px;
+  margin: 0 auto;
+
+  color: #fff;
+}
+
+.header-text h2 {
+  font-size: 2.5rem;
+}
+
+.header-text p {
+  color: #b8a7ff;
+}
+
+.header-image {
+  position: absolute;
+  right: 0;
+  top: 6rem;
+}
+
+.companies {
+  font-family: Righteous, sans-serif;
+  max-width: 1500px;
+  margin: 2.5rem auto;
+
+  display: flex;
+  gap: 2.5rem;
+}
+
+.company-items {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.api {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.cards {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  padding: 2rem 1rem;
+}
+
+.card-active {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.card-active h3 {
+  color: #5a31fc;
+}
+
+.card-svg {
+  background-color: #4516fe;
+  color: #fff;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+
+  /* padding: 1rem; */
+}
+
+.blog-heading {
+  max-width: 1500px;
+  margin: 4rem auto 2rem auto;
+
+  font-weight: bold;
+}
+
+.blog-cards {
+  max-width: 1500px;
+  margin: 4rem auto 2rem auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 2.5rem; */
+  position: relative;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.blog-content {
+  background-color: #fff;
+  /* margin-left: -2.5rem; */
+  padding: 2.5rem;
+}
+
+.blog-bottom img {
+  margin: 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+
+  /* width: 4rem; */
+}
+
+.blog-bottom {
+  position: absolute;
+  bottom: -2rem;
+  left: 18rem;
+}
+
+.blog-author {
+  position: absolute;
+  font-size: 0.7rem;
+  bottom: 0;
+  left: 11rem;
+  width: 7rem;
+}
+
+.faq-section {
+  background-color: #e9edff;
+  position: relative;
+
+  padding: 2.6rem;
+}
+
+.faq-container {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.faq-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.faq-content h4 {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.faq-content .question-contact {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.faq-content button {
+  background-color: #5a31fc;
+  color: #fff;
+  margin-top: 1.5rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-image {
+  position: absolute;
+  right: 0;
+}
+
+.download-section {
+  max-width: 1500px;
+  margin: 8rem auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.download-content span {
+  font-weight: lighter;
+}
+
+.download-email {
+  position: relative;
+
+  background-color: #e9edff;
+  border-radius: 100px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.download-email input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+
+  padding: 1rem;
+  margin-right: 12rem;
+}
+
+.download-email button {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: #5a31fc;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 100px;
+}
+
+footer {
+  background-color: #4718fe;
+}
+
+footer img {
+  cursor: pointer;
+}
+
+.footer-section {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  color: #fff;
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+
+.list-items:not(:first-child) {
+  cursor: pointer;
+}
+
+.footer-logos {
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.logos-list {
+  display: flex;
+  margin-top: 1.5rem;
+  color: #fff;
+  gap: 1.5rem;
+  list-style-type: none;
+}
