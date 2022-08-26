@@ -1,9 +1,9 @@
 /* POPPINS FONT FAMILY */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   margin: 0;
   padding: 0;
@@ -13,6 +13,10 @@
 body {
   background-color: #f8f8fa;
   font-family: Roboto, sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 header {
@@ -327,4 +331,84 @@ footer img {
   color: #fff;
   gap: 1.5rem;
   list-style-type: none;
+}
+
+@media (max-width: 786px) {
+  .container {
+    padding: 1rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .download-section {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  /* .download-email {
+    display: grid;
+    place-items: center;
+  } */
+
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .footer-left {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (max-width: 1140px) {
+  .header-image {
+    position: relative;
+    margin-top: -8rem;
+    margin-bottom: 6rem;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .companies {
+    /* display: flex; */
+    justify-content: center;
+  }
+
+  .api {
+    display: grid;
+    place-items: center;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .blog-heading {
+    display: grid;
+    place-items: center;
+  }
+
+  .blog-cards {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+  }
+
+  .blog-card {
+    align-self: flex-end;
+  }
+
+  .faq-image {
+    display: none;
+  }
 }
